@@ -10,7 +10,7 @@ import 'element-ui/lib/theme-chalk/index.css'
 Vue.use(ElementUI)
 
 // 引入vuex
-import store from './store'
+import store from './store/index'
 
 // axios 配置
 var axios = require('axios')
